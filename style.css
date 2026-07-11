@@ -88,3 +88,35 @@ header button {
 /* header style end */
 
 /* main section star style */
+
+.speaker-container {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.speaker-header {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+.speaker-card {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+.speaker-card .box {
+  background: #ffffff;
+  margin-left: 12px;
+  text-align: start;
+}
+.speaker-card .box .p1 {
+  color: #1d4ed8;
+  padding: 5px;
+}
+.speaker-card .box h3 {
+  padding: 5px;
+}
+.speaker-card .box p {
+  padding: 5px;
+}
+/* meet speaker section end */
