@@ -90,11 +90,11 @@ header button {
 
 /* header style end */
 
-/* main section star style */
+/* main section  speaker star style */
 
 .speaker-container {
-  margin-top: 40px;
-  margin-bottom: 80px;
+  background: #e7e9eb;
+  padding: 80px 20px;
 }
 .speaker-header {
   text-align: center;
@@ -128,7 +128,10 @@ header button {
 }
 /* meet speaker section end */
 /* subscription sytle start */
-
+.subscription {
+  padding: 80px 20px;
+  background: #f4f7fb;
+}
 .subs-section {
   text-align: center;
   margin-bottom: 25px;
@@ -200,6 +203,105 @@ header button {
   color: #93c5fd;
 }
 /* end of subscribtion style */
+
+/* hackathon section style */
+.hackathon {
+  padding: 80px 20px;
+  background: #f4f7fb;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-header h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.section-header p {
+  max-width: 650px;
+  margin: auto;
+  color: #666;
+  line-height: 1.7;
+}
+
+.hackathon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.card {
+  flex: 1 1 300px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.card p {
+  color: #666;
+}
+
+.rules {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.rules h3 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.rules ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.rules li {
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #2563eb;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
 
 /* footer style */
 footer {
