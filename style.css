@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 /* common button style */
+body {
+  background-color: antiquewhite;
+}
 .common-btn {
   background-color: #1d4ed8;
   color: #ffffff;
@@ -15,6 +18,7 @@
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 30px;
 }
 /* navigation style */
 .nav-container {
@@ -23,11 +27,11 @@ section {
   align-items: center;
   padding: 12px;
   background-color: #ffffff;
+  height: 80px;
 }
 .nav-logo {
   display: flex;
   align-items: center;
-  padding-left: 116px;
 }
 .nav-link-items {
   display: flex;
@@ -67,7 +71,6 @@ header {
 header h1 {
   font-size: 5rem;
   padding-bottom: 30px;
-  margin-top: -300px;
 }
 header p {
   font-size: 1.15rem;
@@ -104,9 +107,10 @@ header button {
   grid-template-columns: repeat(2, 1fr);
   gap: 35px;
 }
+
 .speaker-card .box {
   background: #ffffff;
-  margin-left: 12px;
+  border-radius: 15px;
   text-align: start;
 }
 .speaker-card .box .p1 {
@@ -119,4 +123,81 @@ header button {
 .speaker-card .box p {
   padding: 5px;
 }
+.box img {
+  object-fit: cover;
+}
 /* meet speaker section end */
+/* subscription sytle start */
+
+.subs-section {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.subs-header {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.subs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.subs-card {
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 30px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.subs-container h2 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.subs-card ul {
+  list-style: disc;
+  padding: 0;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.subs-card ul li {
+  margin-bottom: 12px;
+  color: #333333;
+}
+.pro {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  z-index: -10;
+}
+.pro ul li {
+  color: #ffffff;
+}
+.subs-card hr {
+  margin: 15px 0;
+}
+.card-btn {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #0d1b2a;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.pro-btn {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  cursor: pointer;
+}
+.subs-card p1 {
+  color: #888888;
+}
+.subs-card .p1-pro {
+  color: #93c5fd;
+}
+/* end of subscribtion style */
+
+/* footer style */
