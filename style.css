@@ -144,6 +144,7 @@ header button {
   gap: 20px;
 }
 .subs-card {
+  position: relative;
   background-color: #ffffff;
   border: 2px solid #ddd;
   border-radius: 8px;
@@ -171,7 +172,7 @@ header button {
 .pro {
   background-color: #0d1b2a;
   color: #ffffff;
-  z-index: -10;
+  z-index: 10;
 }
 .pro ul li {
   color: #ffffff;
@@ -201,3 +202,49 @@ header button {
 /* end of subscribtion style */
 
 /* footer style */
+footer {
+  background-color: #0d1b2a;
+  color: #ffffff;
+  padding: 20px 15px;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+.footer-container img {
+  max-width: 150px;
+  height: auto;
+}
+.footer-box2 {
+  display: flex;
+  justify-content: end;
+  font-size: 32px;
+  cursor: pointer;
+  text-align: center;
+}
+.footer-container hr {
+  grid-column: span 2;
+  width: 100%;
+  text-align: center;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 10px 0;
+}
+.footer-box2 span {
+  padding: 8px;
+}
+.footer-box4 {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+.footer-box4 a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px;
+}
