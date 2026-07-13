@@ -9,7 +9,7 @@ body {
   font-family: "Open sans", sans-serif;
 }
 .common-btn {
-  background-color: #1d4ed8;
+  background-color: #2563eb;
   color: #ffffff;
   padding: 10px 24px;
   border-radius: 15px;
@@ -48,6 +48,9 @@ section {
 }
 .nav-btn {
   padding: 12px 20px;
+}
+.nav-btn:hover{
+  background-color: #1d4ed8;
 }
 /* navigation style end */
 /* header section ster */
@@ -89,6 +92,9 @@ header button {
   width: 282px;
   padding: 12px;
   font-size: 24px;
+}
+header button:hover{
+background-color: #1d4ed8;
 }
 
 /* header style end */
@@ -155,6 +161,10 @@ header button {
 .subs-section {
   text-align: center;
   margin-bottom: 25px;
+  margin-bottom: 32px;
+}
+.subs-section p{
+  margin-bottom: 32px;
 }
 .subs-header {
   font-size: 48px;
@@ -163,11 +173,14 @@ header button {
 .subs-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* display: flex;
+  flex-wrap:wrap ; */
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 .subs-card {
+  /* flex: 1 1 300px; */
   position: relative;
   background-color: #ffffff;
   border: 2px solid #ddd;
@@ -214,10 +227,17 @@ header button {
   cursor: pointer;
   font-weight: 700;
 }
+.card-btn:hover{
+  background-color: #555;
+  color: white;
+}
 .pro-btn {
-  background-color: #1d4ed8;
+  background-color: #2563eb;
   color: #ffffff;
   cursor: pointer;
+}
+.pro-btn:hover {
+  background-color: #1d4ed8;
 }
 .subs-card p1 {
   color: #888888;
