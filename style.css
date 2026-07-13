@@ -24,6 +24,7 @@ section {
 /* navigation style */
 .nav-container {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
   padding: 12px;
@@ -46,8 +47,7 @@ section {
   font-size: 1.2rem;
 }
 .nav-btn {
-  width: 188px;
-  height: 48px;
+  padding: 12px 20px;
 }
 /* navigation style end */
 /* header section ster */
@@ -56,6 +56,7 @@ header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.4) 100%),
     url("./assets/banner.jpg");
+  width: 100%;
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -66,11 +67,12 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 40px 20px;
+
   color: #ffffff;
 }
 header h1 {
   font-size: 5rem;
+  min-width: 300px;
   padding-bottom: 30px;
 }
 header p {
@@ -159,7 +161,8 @@ header button {
   margin-bottom: 16px;
 }
 .subs-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -170,7 +173,7 @@ header button {
   border: 2px solid #ddd;
   border-radius: 8px;
   padding: 30px;
-  width: 300px;
+  /* width: 300px; */
   text-align: left;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s;
